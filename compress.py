@@ -25,56 +25,7 @@ class Compress():
         lista_llave = values.keys()
         lista_llave = list(lista_llave)
         for i in self.lista:
-              self.text += lista_llave.index(lista[i]) + " "
+              self.text += lista_llave.index(self.lista[i]) + " "
         return self.text[:-1]  # otra forma de escribirlo es [:-1]
 
 
-# for i in values:
-#               self.text += list(values.keys()
-#                                 )[list(values.values()).index(lista[i])] + " "
-#         return self.text[:-1]  # otra forma de escribirlo es [:-1]
-
-# class Compress:
-
-#     def compress(self, text):
-#         compressed = []
-#         values = {}
-#         n = 1
-#         text_list = text.split(" ")
-#         for z in text_list:
-#             if not z in values:
-#                 values[z] = n
-#                 n = n + 1
-
-#         for x in text_list:
-#             if x in values:
-#                 y = values[x]
-#                 compressed.append(y)
-#         return compressed, values
-
-#     def uncompress(self, compre, value):
-#         text = ""
-#         lista = value.keys()
-#         lista = list(lista)
-#         for x in compre:
-#             x -= 1
-#             z = lista[x]
-#             text = text + ' ' + z
-#         return text[1:]
-
-
-# # def uncompress(self, token_stream, token_table) -> str:
-# #     inverted_dict = {value: key for key, value in token_table.items()}
-# #     string = ""
-# #     for token in token_stream:
-# #         string += inverted_dict[token] + " "
-# #     return string.strip()
-
-
-
-
-# def uncompress(self, list, dictionary):
-#     text = ''
-#     for i in list:
-#         text += text.join([f'{key} ' for key, value in dictionary.items() if i == value])
-#     return text.rstrip()
