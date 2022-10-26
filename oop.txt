@@ -1,16 +1,16 @@
-Guía para Principiantes de la Programación Orientada a Objetos (POO) en Python
-La programación es un arte. Y al igual que en el arte, la selección de los pinceles y pinturas adecuados es esencial para producir las mejores obras. La programación orientada a objetos (POO – Object-Oriented Programming) en Python es una de esas habilidades.
-La elección del lenguaje de programación adecuado es una parte crucial de cualquier proyecto, y puede conducir a un desarrollo fluido y agradable o a una completa pesadilla. Por lo tanto, lo mejor es que utilices el lenguaje que mejor se adapte a tu caso de uso.
-Esa es la principal razón para aprender programación orientada a objetos en Python, que además es uno de los lenguajes de programación más populares.
+Guia para Principiantes de la Programacion Orientada a Objetos (POO) en Python
+La programacion es un arte. Y al igual que en el arte, la seleccion de los pinceles y pinturas adecuados es esencial para producir las mejores obras. La programacion orientada a objetos (POO – Object-Oriented Programming) en Python es una de esas habilidades.
+La eleccion del lenguaje de programacion adecuado es una parte crucial de cualquier proyecto, y puede conducir a un desarrollo fluido y agradable o a una completa pesadilla. Por lo tanto, lo mejor es que utilices el lenguaje que mejor se adapte a tu caso de uso.
+Esa es la principal razon para aprender programacion orientada a objetos en Python, que ademas es uno de los lenguajes de programacion mas populares.
 Tabla de contenidos
 Un ejemplo de programa en Python
 Requisitos para aprender Python OOP
-¿Qué es la programación orientada a objetos en Python?
-¿Por qué utilizamos la programación orientada a objetos en Python?
+¿Que es la programación orientada a objetos en Python?
+¿Por que utilizamos la programación orientada a objetos en Python?
 Todo es un objeto en Python
 Tu primer objeto en Python
 Los 4 pilares de la OOP en Python
-Construir una calculadora de resolución de formas de área
+Construir una calculadora de resolucion de formas de area
 Un ejemplo de programa en Python
 Antes de entrar en materia, vamos a plantear una pregunta: ¿has escrito alguna vez un programa en Python como el siguiente?
 
@@ -35,22 +35,22 @@ while True:
        print('You guessed the number:', secret_number)
        break
 
-Este código es un simple adivinador de números. Intenta copiarlo en un archivo Python y ejecutarlo en tu sistema. Cumple perfectamente su propósito.
-Kinsta me mimó tanto que ahora exijo ese nivel de servicio a todos los proveedores. Nosotros también intentamos estar a ese nivel con nuestro soporte de herramientas SaaS.
-Pero aquí surge un gran problema: ¿y si te pedimos que implementes una nueva función? Podría ser algo sencillo, por ejemplo:
-«Si la entrada es un múltiplo del número secreto, da una pista al usuario».
-El programa se volvería rápidamente complejo y pesado al aumentar el número de funciones y, por tanto, el número total de condicionales anidados.
-Ese es precisamente el problema que intenta resolver la programación orientada a objetos.
+Este codigo es un simple adivinador de numeros. Intenta copiarlo en un archivo Python y ejecutarlo en tu sistema. Cumple perfectamente su proposito.
+Kinsta me mimo tanto que ahora exijo ese nivel de servicio a todos los proveedores. Nosotros tambien intentamos estar a ese nivel con nuestro soporte de herramientas SaaS.
+Pero aqui surge un gran problema: ¿y si te pedimos que implementes una nueva funcion? Podria ser algo sencillo, por ejemplo:
+«Si la entrada es un multiplo del numero secreto, da una pista al usuario».
+El programa se volveria rapidamente complejo y pesado al aumentar el numero de funciones y, por tanto, el numero total de condicionales anidados.
+Ese es precisamente el problema que intenta resolver la programacion orientada a objetos.
 Requisitos para aprender Python OOP
-Antes de adentrarte en la programación orientada a objetos, te recomendamos encarecidamente que tengas unos conocimientos básicos de Python.
-Clasificar los temas considerados «básicos» puede ser difícil. Por ello, hemos diseñado una hoja de trucos con los principales conceptos necesarios para aprender programación orientada a objetos en Python.
-Variable: Nombre simbólico que apunta a un objeto específico (veremos qué significan los objetos a lo largo del artículo).
-Operadores aritméticos: Suma (+), resta (-), multiplicación (*), división (/), división entera (//), módulo (%).
-Tipos de datos incorporados: Numéricos (enteros, flotantes, complejos), Secuencias (cadenas, listas, tuplas), Booleanos (Verdadero, Falso), Diccionarios y Conjuntos.
+Antes de adentrarte en la programacion orientada a objetos, te recomendamos encarecidamente que tengas unos conocimientos basicos de Python.
+Clasificar los temas considerados «basicos» puede ser dificil. Por ello, hemos diseñado una hoja de trucos con los principales conceptos necesarios para aprender programacion orientada a objetos en Python.
+Variable: Nombre simbolico que apunta a un objeto especifico (veremos que significan los objetos a lo largo del articulo).
+Operadores aritmeticos: Suma (+), resta (-), multiplicacion (*), division (/), division entera (//), modulo (%).
+Tipos de datos incorporados: Numericos (enteros, flotantes, complejos), Secuencias (cadenas, listas, tuplas), Booleanos (Verdadero, Falso), Diccionarios y Conjuntos.
 Expresiones booleanas: Expresiones en las que el resultado es True o False.
-Condicional: Evalúa una expresión booleana y realiza algún proceso dependiendo del resultado. Se maneja mediante sentencias if/else.
-Bucle: Ejecución repetida de bloques de código. Pueden ser bucles for o while.
-Funciones: Bloque de código organizado y reutilizable. Se crean con la palabra clave def.
+Condicional: Evalua una expresion booleana y realiza algún proceso dependiendo del resultado. Se maneja mediante sentencias if/else.
+Bucle: Ejecucion repetida de bloques de codigo. Pueden ser bucles for o while.
+Funciones: Bloque de codigo organizado y reutilizable. Se crean con la palabra clave def.
 Argumentos: Objetos que se pasan a una función. Por ejemplo: sum([1, 2, 4])
 Ejecuta un script de Python: Abre un terminal o línea de comandos y escribe «python <nombre del archivo>».
 Abre un shell de Python: Abre un terminal y escribe python o python3 dependiendo de tu sistema.
